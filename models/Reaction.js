@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const Reaction = new mongoose.Schema(
     {
         reactId: {
-            type: mongoose.Schema.Types.ObjectId,
+                type: mongoose.Schema.Types.ObjectId,
             default: mongoose.Schema.Types.ObjectId
         },
         reactContent: {
